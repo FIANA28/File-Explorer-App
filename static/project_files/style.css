@@ -1,0 +1,53 @@
+/* breadcrumb */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.breadcrumb {
+    background-color: blue;
+    border-radius: 0;
+}
+
+a, a:hover{
+    color: goldenrod;
+    font-weight: bolder;
+}
+
+/* table */
+table {
+    color: rgba(0, 0, 255, 0.6);
+    margin: 100px 10px;
+}
+
+thead {
+    background-color: rgb(173, 222, 230);
+    cursor: pointer;
+}
+
+ion-icon {
+    color: rgba(0, 0, 255, 0.6);
+    font-size: 20px;
+}
+ tbody {
+     display: block;
+     height: 300px;
+     overflow-y: scroll;
+ }
+
+ thead, tbody tr {
+     display: table; 
+     table-layout: fixed;
+     width: 100%;;
+ }
+
+ .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: blue;
+    color: rgba(245, 245, 245, 0.5);
+}
